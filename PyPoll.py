@@ -64,7 +64,7 @@ with open(file_to_save, "w") as txt_file:
             winning_count = votes
             winning_candidate = candidate_name
             winning_percentage = vote_percentage
-    #Print the winning candidates' results to the terminal
+    # Print the winning candidates' results to the terminal
     winning_candidate_summary = (
         f"-------------------------\n"
         f"Winner: {winning_candidate}\n"
@@ -72,6 +72,6 @@ with open(file_to_save, "w") as txt_file:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
-    #Save the winning candidate's results to the text file.
+    # Save the winning candidate's results to the text file.
     txt_file.write(winning_candidate_summary)
 
